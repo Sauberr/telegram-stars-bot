@@ -10,6 +10,7 @@ Includes libraries like structlog, pydantic, fluent etc.
 
 ## Credits
 [@MasterGroosha](https://github.com/MasterGroosha) for his Aiogram 3 getting started guides, we learned from it many cool things
+[@Priler](https://github.com/Priler/telegramStarsBot) original bot code
 
 ## Example env token
 
