@@ -10,3 +10,7 @@ Includes libraries like structlog, pydantic, fluent etc.
 
 ## Credits
 [@MasterGroosha](https://github.com/MasterGroosha) for his Aiogram 3 getting started guides, we learned from it many cool things
+
+## Example env token
+
+token=2013707108:AAFrRRwoeojqe-FkedkWJfJFh6l1ixlzwwz
