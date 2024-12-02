@@ -1,7 +1,8 @@
 from aiogram.filters import BaseFilter
 from aiogram.types import Message
 
-from config_reader import get_config, BotConfig
+from config_reader import BotConfig, get_config
+
 
 class IsOwnerFilter(BaseFilter):
     def __init__(self, is_owner):

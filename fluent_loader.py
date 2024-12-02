@@ -30,5 +30,5 @@ def get_fluent_localization() -> FluentLocalization:
     return FluentLocalization(
         locales=["ru"],
         resource_ids=[str(locale_file.absolute())],
-        resource_loader=l10n_loader
+        resource_loader=l10n_loader,
     )

@@ -1,4 +1,4 @@
-from typing import Union, Dict, Any
+from typing import Any, Dict, Union
 
 from aiogram.filters import BaseFilter
 from aiogram.types import Message
@@ -13,7 +13,8 @@ class HasUsernamesFilter(BaseFilter):
         # Check for any usernames and extract them from the text
         # using the extract_from() method
         found_usernames = [
-            item.extract_from(message.text) for item in entities
+            item.extract_from(message.text)
+            for item in entities
             if item.type == "mention"
         ]
 

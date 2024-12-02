@@ -27,7 +27,7 @@ class LogConfig(BaseModel):
     use_colors_in_console: bool
     renderer: LogRenderer
 
-    @field_validator('renderer', mode="before")
+    @field_validator("renderer", mode="before")
     @classmethod
     def log_renderer_to_lower(cls, v: str):
         return v.lower()
@@ -40,10 +40,10 @@ class Config(BaseModel):
 @lru_cache
 def parse_config_file() -> dict:
     # Check if there's ENV variable that overrides config file path
-    if environ.get('CONFIG_FILE_PATH') is not None:
-        file_path = environ.get('CONFIG_FILE_PATH') # overriden config file name
+    if environ.get("CONFIG_FILE_PATH") is not None:
+        file_path = environ.get("CONFIG_FILE_PATH")  # overriden config file name
     else:
-        file_path = "config.toml" # default config file name
+        file_path = "config.toml"  # default config file name
 
     if file_path is None:
         error = "Could not find settings file"
