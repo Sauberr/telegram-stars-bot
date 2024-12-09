@@ -35,3 +35,7 @@ All actions should be executed from the source directory of the project and only
 ## Example env token
 
 token=2013707108:AAFrRRwoeojqe-FkedkWJfJFh6l1ixlzwwz
+
+## License
+
+This project uses the [MIT] license(https://github.com/Sauberr/telegram-stars-bot/blob/main/LICENSE)
