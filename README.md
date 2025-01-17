@@ -39,3 +39,7 @@ token=2013707108:AAFrRRwoeojqe-FkedkWJfJFh6l1ixlzwwz
 ## License
 
 This project uses the [MIT] license(https://github.com/Sauberr/telegram-stars-bot/blob/main/LICENSE)
+
+## Contact
+
+To contact the author of the project, write to email 𝚍𝚖𝚒𝚝𝚛𝚒𝚢𝚋𝚒𝚛𝚒𝚕𝚔𝚘@𝚐𝚖𝚊𝚒𝚕.𝚌𝚘𝚖.
